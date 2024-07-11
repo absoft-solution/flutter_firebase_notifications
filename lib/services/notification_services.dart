@@ -24,5 +24,8 @@ else{
   print("user denied permission");
 }
   }
-
+  Future<String> GetDeviceToken() async{
+    String ? token= await firebaseMessaging.getToken();
+    return token!;
+  }
 }

@@ -15,9 +15,13 @@ class _HomeScreenState extends State<HomeScreen> {
   void initState() {
     notificationServices.RequestNotification();
 
+
   }
   @override
   Widget build(BuildContext context) {
+    notificationServices.GetDeviceToken().then((onValue){
+      print(onValue);
+    });
     return Scaffold();
   }
 }
