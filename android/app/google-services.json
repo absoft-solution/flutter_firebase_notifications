@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "565370015678",
+    "project_id": "fir-notification-53606",
+    "storage_bucket": "fir-notification-53606.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565370015678:android:8b868fbf55e234804533ef",
+        "android_client_info": {
+          "package_name": "com.absoft.flutter_firebasenotification"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCALGtyKVK67DQwUwqzYfrM9ZHIAenwaXQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565370015678:android:d408d62f9810ab3d4533ef",
+        "android_client_info": {
+          "package_name": "com.example.flutter_firebase_notifica"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCALGtyKVK67DQwUwqzYfrM9ZHIAenwaXQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
