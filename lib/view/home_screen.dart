@@ -14,6 +14,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   void initState() {
     notificationServices.RequestNotification();
+    notificationServices.firebaseInit();
 
 
   }
